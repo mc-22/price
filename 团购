@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+  <style>
+    div {
+      width: 300px;
+      height: 300px;
+      border: 2px solid #cccccc;
+      margin: 0 auto;
+      margin-top: 100px;
+      position: relative;
+    }
+    div img {
+      width: 300px;
+      height: 200px;
+
+    }
+    div .hot {
+      background:url("eat.2.png") no-repeat ;
+      width: 45px;
+      height: 44px;
+      /*display: inline-block;*/
+      position: absolute;
+      left: 0px;
+      top: 0px;
+    }
+    div .hot2 {
+      /*width: 134px;*/
+      /*height: 42px;*/
+      background: url("eat.1.png")  no-repeat ;
+      width: 134px;
+      height: 42px;
+      /*display: inline-block;*/
+      position: absolute;
+      left: -7px;
+      top: 163px;
+    }
+  </style>
+</head>
+<body>
+<div>
+<img src=eat.jpg>
+  <span class="hot"></span>
+  <span class="hot2"></span>
+  <p>【2店通用】Love Taste爱味道牛排生活馆双人套餐，提供免费WiFi</p>
+</div>
+
+</body>
+</html>
